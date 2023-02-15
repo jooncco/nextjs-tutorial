@@ -5,9 +5,9 @@ import styles from '../styles/layout.module.css';
 import utilStyles from '../styles/util.module.css';
 
 const name = 'Jooncco';
-const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Next.js Sample Website';
 
-const Layout = ({ children, home }) => {
+export default function Laytout({ children, home }) {
     return (<div className={styles.container}>
         <Head>
             <link rel="icon" href="/favicon.ico" />
@@ -66,6 +66,3 @@ const Layout = ({ children, home }) => {
     </div>
     );
 };
-
-export { siteTitle };
-export default Layout;
