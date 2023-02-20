@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Full stack Software engineer.</p>
         <p>
-          I'm new to Next.js. This is a sample web application built with Next.js.
+          I&apos;m new to Next.js. This is a sample web application built with Next.js.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -30,7 +30,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
     </Layout>
-  )
+  );
 };
 
 export async function getStaticProps() {
@@ -40,4 +40,4 @@ export async function getStaticProps() {
       allPostsData,
     },
   };
-}
+};
