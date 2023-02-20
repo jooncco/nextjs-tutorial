@@ -4,6 +4,10 @@
     "semi": [
       2,
       "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
     ]
   }
 }
